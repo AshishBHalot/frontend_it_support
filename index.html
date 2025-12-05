@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YAY! It’s BOGO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bogo-wrapper">
+    <div class="bogo-title">YAY! It’s BOGO</div>
+
+    <form id="bogoForm">
+      <div class="plan active">
+        <input type="radio" name="units" id="plan1" value="1" data-total="10" checked>
+        <label class="plan-card" for="plan1">
+          <div class="radio-circle"></div>
+
+          <div class="plan-main">
+            <div class="plan-top">
+              <div>
+                <span class="plan-name">1 Unit</span>
+                <span class="badge">10% Off</span>
+                <div class="plan-desc">Standard Price</div>
+              </div>
+              <div>
+                <div class="plan-price">$10.00 USD</div>
+                <div class="plan-old-price">$24.00 USD</div>
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <div class="variant-grid">
+          <span></span>
+          <span class="head">Size</span>
+          <span class="head">Colour</span>
+
+          <span>#1</span>
+          <select name="size1">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color1">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+
+          <span>#2</span>
+          <select name="size2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color2">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="plan popular">
+        <input type="radio" name="units" id="plan2" value="2" data-total="18">
+        <label class="plan-card" for="plan2">
+          <div class="radio-circle"></div>
+
+          <div class="plan-main">
+            <div class="plan-top">
+              <div>
+                <span class="plan-name">2 Unit</span>
+                <span class="badge">20% Off</span>
+              </div>
+              <div>
+                <div class="plan-price">$18.00 USD</div>
+                <div class="plan-old-price">$24.00 USD</div>
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <div class="variant-grid">
+          <span></span>
+          <span class="head">Size</span>
+          <span class="head">Colour</span>
+
+          <span>#1</span>
+          <select name="size1">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color1">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+
+          <span>#2</span>
+          <select name="size2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color2">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="plan">
+        <input type="radio" name="units" id="plan3" value="3" data-total="24">
+        <label class="plan-card" for="plan3">
+          <div class="radio-circle"></div>
+
+          <div class="plan-main">
+            <div class="plan-top">
+              <div>
+                <span class="plan-name">3 Unit</span>
+                <span class="badge">30% Off</span>
+              </div>
+              <div>
+                <div class="plan-price">$24.00 USD</div>
+                <div class="plan-old-price">$24.00 USD</div>
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <div class="variant-grid">
+          <span></span>
+          <span class="head">Size</span>
+          <span class="head">Colour</span>
+
+          <span>#1</span>
+          <select name="size1">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color1">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+
+          <span>#2</span>
+          <select name="size2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <select name="color2">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="summary-row">
+        <div class="free-delivery">Free Delivery</div>
+        <div>
+          <span class="total-label">Total :</span>
+          <span id="totalAmount" class="total-amount">$10.00 USD</span>
+        </div>
+      </div>
+
+      <button type="button" class="add-btn" id="addToCartBtn">
+        + Add to Cart
+      </button>
+      <div class="powered">@ Powered by Pumper</div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
